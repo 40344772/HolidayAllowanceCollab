@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\HolidayAllowance-master",
-    "\\HolidayAllowance-master\\templates"
+    "\\HolidayAllowance-master\\venv",
+    "\\HolidayAllowance-master\\venv\\Scripts"
   ],
-  "SelectedNode": "\\HolidayAllowance-master\\haeUI.py",
+  "SelectedNode": "\\HolidayAllowance-master\\venv\\Scripts\\activate",
   "PreviewInSolutionExplorer": false
 }
