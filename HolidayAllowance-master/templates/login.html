@@ -1,23 +1,10 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/brStyle.css') }}">
-    <title>Holiday Allowance Engine</title>
-</head>
-
-<body>
-    <header>
-        <h2>Holiday Allowance Engine</h2>
-    </header>
-
-    <form>
-        <label for="email">Email</label><br>
-        <input type="Email" id="email" name="email"><br>
-        <label for="password">Password</label><br>
-        <input type="Password" id="password" name="password"><br><br>
-        <input type="submit" onclick="window.location.href = '/home';" name="submit">
-    </form>
-</body>
-
-</html>
+{% extends "UI.html" %}
+{% block content %}
+<form>
+    <label for="email">Email</label><br>
+    <input type="Email" id="email" name="email"><br>
+    <label for="password">Password</label><br>
+    <input type="Password" id="password" name="password"><br><br>
+    <input type="submit" onclick="window.location.href = '/home';" name="submit">
+</form>
+{% endblock %}}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/brStyle.css') }}">
+    <title>Holiday Allowance Engine</title>
+</head>
+
+<body>
+    <header>
+        <h2>Holiday Allowance Engine</h2>
+    </header>
+
+    <div class="container">
+
+        {% block content %} {% endblock %}
+
+    </div>
+
+</body>
+
+</html>
