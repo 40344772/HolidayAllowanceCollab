@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    font: Segoe UI;
+}
+
+header {
+    height: 50px;
+    background-color: #00a2ed;
+}
+
+form {
+    font: 16px;
+}
+
+h2 {
+    font: 30px Segoe UI;
+}
