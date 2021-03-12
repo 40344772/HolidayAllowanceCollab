@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\HolidayAllowance-master",
-    "\\HolidayAllowance-master\\venv",
-    "\\HolidayAllowance-master\\venv\\Scripts"
+    "\\HolidayAllowance-master\\static",
+    "\\HolidayAllowance-master\\static\\css",
+    "\\HolidayAllowance-master\\templates"
   ],
-  "SelectedNode": "\\HolidayAllowance-master\\venv\\Scripts\\activate",
+  "SelectedNode": "\\HolidayAllowance-master\\static\\css\\brStyle.css",
   "PreviewInSolutionExplorer": false
 }
