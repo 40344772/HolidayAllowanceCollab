@@ -17,6 +17,8 @@ form {
 
 h2 {
     font: 30px Segoe UI;
+    padding: 5px;
+    background-color: white;
 }
 
 footer {
@@ -32,6 +34,7 @@ footer {
 label {
     color: white;
     padding: 8px;
+    font: 15px Segoe UI;
     background-color: #2196F3;
 }
 
