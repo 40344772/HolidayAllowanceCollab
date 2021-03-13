@@ -30,12 +30,12 @@ footer {
     text-align: center;
 }
 
-
 label {
     color: white;
     padding: 8px;
     font: 15px Segoe UI;
     background-color: #2196F3;
+    border-radius: 25px;
 }
 
 input {
