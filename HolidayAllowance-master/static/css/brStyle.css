@@ -8,7 +8,7 @@ body {
 header {
     padding: 10px;
     width: 100%;
-    background-color: #00a2ed;
+    background-color: #0000ff;
 }
 
 form {
@@ -27,15 +27,16 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #00a2ed;
+    background-color: #0000ff;
     text-align: center;
+    color: white;
 }
 
 label {
     color: white;
     padding: 8px;
     font: 15px Segoe UI;
-    background-color: #2196F3;
+    background-color: #0000ff;
     border-radius: 25px;
 }
 
@@ -72,6 +73,6 @@ topnav a:hover {
 }
 
 topnav a.active {
-  background-color: #2196F3;
-  color: black;
+  background-color: #0000ff;
+  color: white;
 }

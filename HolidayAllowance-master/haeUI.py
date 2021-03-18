@@ -8,8 +8,16 @@ def login():
     return render_template('login.html')
 
 @app.route('/home')
-def index():
+def home():
+    return render_template('home.html')
+
+@app.route('/request')
+def request():
     return render_template('request.html')
+
+@app.route('/booked')
+def booked():
+    return render_template('booked.html')
 
 if __name__ == "__main__":
     app.run(debug = True) #currently runs on debug mode to catch errors
