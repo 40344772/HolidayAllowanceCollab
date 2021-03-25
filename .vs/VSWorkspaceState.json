@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\HolidayAllowance-master",
-    "\\HolidayAllowance-master\\static",
-    "\\HolidayAllowance-master\\static\\css",
     "\\HolidayAllowance-master\\templates"
   ],
-  "SelectedNode": "\\HolidayAllowance-master\\haeUI.py",
+  "SelectedNode": "\\HolidayAllowance-master\\templates\\booked.html",
   "PreviewInSolutionExplorer": false
 }

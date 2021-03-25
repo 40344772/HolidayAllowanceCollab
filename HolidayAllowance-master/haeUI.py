@@ -1,16 +1,17 @@
 ﻿#HAEUI (Holiday Allowance Engine User Interface)
-from flask import Flask, render_template, url_for, request
+from flask import Flask, render_template, url_for
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__) 
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'
 
 @app.route('/')
 def login():
     return render_template('login.html')
 
-@app.route('/home', methods=['POST', 'GET'])
+@app.route('/home')
 def home():
-    name = "Jane"
-    return render_template('home.html' , name = name)
+    return render_template('home.html')
 
 @app.route('/request')
 def request():
