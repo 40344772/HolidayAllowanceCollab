@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\HolidayAllowance-master",
-    "\\HolidayAllowance-master\\static",
-    "\\HolidayAllowance-master\\static\\css",
     "\\HolidayAllowance-master\\templates"
   ],
-  "SelectedNode": "\\HolidayAllowance-master\\templates\\UI.html",
+  "SelectedNode": "\\HolidayAllowance-master\\templates\\booked.html",
   "PreviewInSolutionExplorer": false
 }
