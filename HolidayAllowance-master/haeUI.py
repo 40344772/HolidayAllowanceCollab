@@ -1,5 +1,5 @@
 ﻿#HAEUI (Holiday Allowance Engine User Interface)
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template, url_for, request
 
 app = Flask(__name__) 
 
@@ -9,7 +9,7 @@ def login():
 
 @app.route('/home', methods=['POST', 'GET'])
 def home():
-    name = request.form['email']
+    name = "Jane"
     return render_template('home.html' , name = name)
 
 @app.route('/request')
