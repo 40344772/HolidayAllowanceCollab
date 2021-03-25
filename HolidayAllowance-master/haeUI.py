@@ -1,7 +1,9 @@
 ﻿#HAEUI (Holiday Allowance Engine User Interface)
-from flask import Flask, render_template, url_for, request
+from flask import Flask, render_template, url_for
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__) 
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'
 
 @app.route('/')
 def login():
