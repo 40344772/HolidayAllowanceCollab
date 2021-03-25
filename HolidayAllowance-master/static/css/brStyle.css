@@ -23,7 +23,8 @@ h2 {
 }
 
 table {
-    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
     font: 16px Segoe UI;
 }
 
