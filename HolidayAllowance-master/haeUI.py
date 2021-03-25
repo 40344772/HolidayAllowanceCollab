@@ -7,7 +7,7 @@ app = Flask(__name__)
 def login():
     return render_template('login.html')
 
-@app.route('/home', methods=['POST'])
+@app.route('/home', methods=['POST', 'GET'])
 def home():
     name = request.form['email']
     return render_template('home.html' , name = name)
