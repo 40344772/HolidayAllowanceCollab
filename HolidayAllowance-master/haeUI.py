@@ -9,9 +9,10 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'
 def login():
     return render_template('login.html')
 
-@app.route('/home')
+@app.route('/home', methods=['POST', 'GET'])
 def home():
-    return render_template('home.html')
+    name = "Jane"
+    return render_template('home.html' , name = name)
 
 @app.route('/request')
 def request():
